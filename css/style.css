@@ -1,0 +1,147 @@
+body {
+    overflow: auto;
+    overscroll-behavior: auto;
+    margin: 0px;
+
+
+}
+
+
+
+
+#wrapper {
+    display: grid; 
+    height: calc(100vh);
+    grid-template-rows: 20% 60% 10% 60% 60% 60% 1fr;
+    grid-template-areas:
+        'hd hd hd'
+        'st1 st1 st1'
+        'nv nv nv'
+        'st2 st3 st4'
+        'st5 st6 st7'
+        'st8 st9 st10'
+        'ft ft ft';
+
+
+}
+
+header {
+    grid-area: hd;
+    background-color: #FAECDC;
+    float: right;
+
+
+}
+
+#logo {
+    grid-area: hd;
+    height: 100%;
+    float: left;
+}
+#Pluss {
+    grid-area: hd;
+    height: 70%;
+    padding: 20px;
+    float: right;
+}
+
+#section1 {
+    grid-area: st1;
+    background-color: #F5B7B1;
+    border-radius: 10px;
+    padding: 10px; 
+    
+}
+
+nav {
+    grid-area: nv;
+    background-color: #F1948A;
+ 
+}
+
+#section2 {
+    grid-area: st2;
+    padding: 30px;
+
+
+
+     
+     
+}
+
+#Bild2 {
+    grid-area: st2;
+    height: 70%;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+
+
+
+}
+
+#section3 {
+    grid-area: st3;
+    padding: 30px; 
+}
+
+#Bild3 {
+    grid-area: st3;
+    height: 70%;
+    width: 100%;
+    float: right;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+#section4 {
+    grid-area: st4;
+    padding: 30px; 
+}
+
+#Bild4 {
+    grid-area: st4;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+
+
+}
+#section5 {
+    grid-area: st5;
+    padding: 30px; 
+}
+#section6 {
+    grid-area: st6;
+    padding: 30px; 
+}
+#section7 {
+    grid-area: st7;
+    padding: 30px; 
+
+}
+#section8 {
+    grid-area: st8;
+    padding: 30px; 
+}
+#section9 {
+    grid-area: st9;
+    padding: 30px; 
+}
+#section10 {
+    grid-area: st10;
+    padding: 30px; 
+}
+
+footer {
+    grid-area: ft;
+    background-color: #F5B7B1;
+    border-radius: 10px;
+    padding: 10px; 
+}
