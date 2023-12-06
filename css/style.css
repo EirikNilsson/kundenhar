@@ -39,11 +39,16 @@ header {
     float: left;
 }
 #Pluss {
-    grid-area: hd;
     height: 70%;
-    padding: 20px;
+    padding: 30px;
     float: right;
+    
 }
+#Lägg_till {
+    position: absolute;
+    top: -2%;
+    right: 18px;
+  }
 
 #section1 {
     grid-area: st1;

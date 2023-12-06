@@ -1,0 +1,69 @@
+body {
+    overflow: auto;
+    overscroll-behavior: auto;
+    margin: 0px;
+
+
+}
+
+
+
+
+#wrapper {
+    display: grid; 
+    height: calc(100vh);
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas:
+        'hd hd hd'
+        'st1 st2 st3'
+        'ft ft ft'
+
+
+}
+
+header {
+    grid-area: hd;
+    background-color: #FAECDC;
+
+
+}
+
+#Rubrik {
+    float: center;
+}
+
+#logo {
+    grid-area: hd;
+    height: 100%;
+    float: left;
+}
+
+#section1 {
+    grid-area: st1;
+    background-color: #F5B7B1;
+
+    
+}
+
+#section2 {
+    grid-area: st2;
+    background-color: #c83022;
+
+
+     
+}
+
+
+#section3 {
+    grid-area: st3;
+    background-color: #F5B7B1;
+
+}
+
+
+footer {
+    grid-area: ft;
+    background-color: #F5B7B1;
+
+}
