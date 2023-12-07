@@ -25,19 +25,19 @@ body {
 header {
     grid-area: hd;
     background-color: #FAECDC;
-
-
-}
-
-#Rubrik {
-    float: center;
+    float: right;
+    text-align: center;
 }
 
 #logo {
     grid-area: hd;
+    position: relative;
     height: 100%;
     float: left;
+    top: -56%;
 }
+
+
 
 #section1 {
     grid-area: st1;
@@ -48,10 +48,15 @@ header {
 
 #section2 {
     grid-area: st2;
-    background-color: #c83022;
+    background-color: #c83022;  
+}
 
-
-     
+#Pluss {
+    position: relative;
+    float: right;
+    width: 40%;
+    padding: 4%;
+    top: -20%
 }
 
 
@@ -67,3 +72,5 @@ footer {
     background-color: #F5B7B1;
 
 }
+
+
