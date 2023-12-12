@@ -2,6 +2,8 @@ body {
     overflow: auto;
     overscroll-behavior: auto;
     margin: 0px;
+    background: rgb(192,57,43);
+    background: linear-gradient(90deg, rgba(192,57,43,1) 17%, rgba(250,118,105,1) 44%, rgba(236,115,104,1) 59%, rgba(192,57,43,1) 83%);
 
 
 }
@@ -41,14 +43,17 @@ header {
 
 #section1 {
     grid-area: st1;
+    margin: 20px;
+    border-radius: 10px;
     background-color: #F5B7B1;
+
 
     
 }
 
 #section2 {
     grid-area: st2;
-    background-color: #c83022;  
+ 
 }
 
 #Pluss {
@@ -62,7 +67,11 @@ header {
 
 #section3 {
     grid-area: st3;
+    margin: 20px;
+    border-radius: 10px;
     background-color: #F5B7B1;
+
+
 
 }
 
@@ -70,7 +79,12 @@ header {
 footer {
     grid-area: ft;
     background-color: #F5B7B1;
+    text-align: right;
 
+}
+
+#About {
+    width: 150px;
 }
 
 

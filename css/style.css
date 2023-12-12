@@ -2,7 +2,8 @@ body {
     overflow: auto;
     overscroll-behavior: auto;
     margin: 0px;
-    background-color: #c83022;
+    background: rgb(192,57,43);
+    background: linear-gradient(90deg, rgba(192,57,43,1) 17%, rgba(250,118,105,1) 44%, rgba(236,115,104,1) 59%, rgba(192,57,43,1) 83%);
 
 
 }
@@ -13,7 +14,7 @@ body {
 #wrapper {
     display: grid; 
     height: calc(100vh);
-    grid-template-rows: 20% 60% 10% 60% 60% 60% 10%;
+    grid-template-rows: 20% 60% 10% 60% 60% 60% 20%;
     grid-template-areas:
         'hd hd hd'
         'st1 st1 st1'
@@ -45,6 +46,11 @@ header {
     float: right;
     
 }
+#Pluss:hover {
+    transform: scale(1.10);
+    transition: 500ms;
+}
+
 #Load_up {
     position: absolute;
     top: -2%;
@@ -53,11 +59,43 @@ header {
 
 #section1 {
     grid-area: st1;
-    background-color: #F5B7B1;
+    background: rgb(245,183,177);
+    background: linear-gradient(90deg, rgba(245,183,177,1) 21%, rgba(218,115,106,1) 58%);
     border-radius: 10px;
     width: 80%;
     justify-self: center;
     
+}
+#BildText1 {
+    grid-area: st1;
+    padding-left: 220px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+#BildText2 {
+    grid-area: st1;
+    font-size: 30px;
+    padding-left: 250px;
+}
+#BildText3 {
+    grid-area: st1;
+    padding-left: 270px;
+    font-size: 20px;
+}
+
+#Bild1 {
+    grid-area: st1;
+    height: 70%;
+    width: 40%;
+    padding: 60px;
+    float: right; 
+
+}
+#Bild1:hover {
+    transform: scale(1.10);
+    transition: 500ms;
+
+
 }
 
 nav {
@@ -69,6 +107,7 @@ nav {
 #section2 {
     grid-area: st2;
     padding: 30px;
+    text-align: center;
 
 
 
@@ -82,17 +121,20 @@ nav {
     height: 70%;
     width: 100%;
     margin-left: 10px;
-    border-radius: 10px;
     padding: 10px;
     float: right;
 
-
+}
+#Bild2:hover {
+    transform: scale(1.10);
+    transition: 500ms;
 
 }
 
 #section3 {
     grid-area: st3;
-    padding: 30px; 
+    padding: 30px;
+    text-align: center; 
 }
 
 #Bild3 {
@@ -100,22 +142,31 @@ nav {
     height: 70%;
     width: 100%;
     float: right;
-    border-radius: 10px;
     padding: 10px;
 
 
 }
+#Bild3:hover {
+    
+    transform: scale(1.10);
+    transition: 500ms;
+
+}
+
+
+
+
 
 #section4 {
     grid-area: st4;
     padding: 30px; 
+    text-align: center;
 }
 
 #Bild4 {
     grid-area: st4;
     height: 70%;
     width: 100%;
-    border-radius: 10px;
     padding: 10px;
     float: right;
 
@@ -124,27 +175,41 @@ nav {
 #section5 {
     grid-area: st5;
     padding: 30px; 
+    text-align: center;
 }
+#Bild4:hover {
+    
+    transform: scale(1.10);
+    transition: 500ms;
+
+}
+
+
 #section6 {
     grid-area: st6;
     padding: 30px; 
+    text-align: center;
 }
 #section7 {
     grid-area: st7;
     padding: 30px; 
+    text-align: center;
 
 }
 #section8 {
     grid-area: st8;
     padding: 30px; 
+    text-align: center;
 }
 #section9 {
     grid-area: st9;
     padding: 30px; 
+    text-align: center;
 }
 #section10 {
     grid-area: st10;
     padding: 30px; 
+    text-align: center;
 }
 
 footer {
@@ -152,5 +217,9 @@ footer {
     background-color: #F5B7B1;
     text-align: right;
     padding-right: 10px;
+}
+
+#About {
+    width: 150px;
 }
 
