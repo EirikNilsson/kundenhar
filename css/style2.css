@@ -1,6 +1,4 @@
 body {
-    overflow: auto;
-    overscroll-behavior: auto;
     margin: 0px;
     background: rgb(192,57,43);
     background: linear-gradient(90deg, rgba(192,57,43,1) 17%, rgba(250,118,105,1) 44%, rgba(236,115,104,1) 59%, rgba(192,57,43,1) 83%);
@@ -15,11 +13,11 @@ body {
     display: grid; 
     height: calc(100vh);
     grid-template-rows: 20% 60% 20%;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 40% 60%;
     grid-template-areas:
-        'hd hd hd'
-        'st1 st2 st3'
-        'ft ft ft'
+        'hd hd'
+        'st1 st2'
+        'ft ft'
 
 
 }
@@ -27,7 +25,6 @@ body {
 header {
     grid-area: hd;
     background-color: #FAECDC;
-    float: right;
     text-align: center;
 }
 
@@ -46,34 +43,74 @@ header {
     margin: 20px;
     border-radius: 10px;
     background-color: #F5B7B1;
+    padding: 30px;
+  
+}
 
+#Name {
+    padding-top: 20px;
 
+}
+
+#Artist {
+    padding-top:30px;
+}
+
+#Price {
+    padding-top: 30px;
     
 }
 
+#Box1 {
+    position: relative;
+    top: -46px;
+    padding-left: 150px;
+    width: 100px;
+    height: 30px;
+
+}
+#Box2 {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    top: -46px;
+    padding-left: 136px;
+
+}
+#Box3 {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    top: -46px;
+    padding-left: 63px;
+
+}
+
+
 #section2 {
     grid-area: st2;
+
  
+}
+#Load {
+    position: relative;
+    left: 200px;
+    top: 20px;
 }
 
 #Pluss {
     position: relative;
-    float: right;
-    width: 40%;
-    padding: 4%;
-    top: -20%
-}
-
-
-#section3 {
-    grid-area: st3;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: #F5B7B1;
-
+    left: 170px;
+    top: 10px;
+    width: 30%;
 
 
 }
+#Pluss:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
 
 
 footer {
@@ -87,4 +124,50 @@ footer {
     width: 150px;
 }
 
+#wrapper2 {
+    display: grid; 
+    height: calc(100vh);
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 1/3% 1/3% 1/3%;
+    grid-template-areas:
+        'hd hd hd'
+        'st1 st3 st4'
+        'ft ft ft'
+}
 
+#About_us {
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+#Home {
+    width: 135px;
+}
+
+
+#logo2 {
+    grid-area: hd;
+    position: relative;
+    height: 100%;
+    float: left;
+}
+
+
+#section3 {
+    grid-area: st3;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #F5B7B1;
+    padding: 30px;
+  
+  
+}
+#section4 {
+    grid-area: st4;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #F5B7B1;
+    padding: 30px;
+  
+  
+}

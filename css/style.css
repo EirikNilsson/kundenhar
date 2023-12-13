@@ -104,6 +104,28 @@ nav {
  
 }
 
+#Latest {
+    text-align: start;
+    padding-left: 600px; 
+    text-decoration: underline;
+}
+
+#Cheapest {
+    position: relative;
+    text-align: center;
+    top: -38px;
+    text-decoration: underline;
+}
+
+#Search {
+    position: relative;
+    text-align: end;
+    top: -80px;
+    padding-right: 600px;
+    text-decoration: underline;
+
+}
+
 #section2 {
     grid-area: st2;
     padding: 30px;
