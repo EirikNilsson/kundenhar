@@ -2,11 +2,13 @@ body {
     margin: 0px;
     background: rgb(192,57,43);
     background: linear-gradient(90deg, rgba(192,57,43,1) 17%, rgba(250,118,105,1) 44%, rgba(236,115,104,1) 59%, rgba(192,57,43,1) 83%);
-
+    overflow: hidden;
 
 }
 
-
+html {
+    overflow: hidden;
+}
 
 
 #wrapper {
@@ -94,7 +96,7 @@ header {
 }
 #Load {
     position: relative;
-    left: 200px;
+    left: 170px;
     top: 20px;
 }
 

@@ -14,7 +14,7 @@ body {
 #wrapper {
     display: grid; 
     height: calc(100vh);
-    grid-template-rows: 20% 60% 10% 60% 60% 60% 20%;
+    grid-template-rows: 20% 60% 10% 60% 60% 60% 20.8%;
     grid-template-areas:
         'hd hd hd'
         'st1 st1 st1'
