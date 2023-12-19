@@ -3,7 +3,8 @@ body {
     overscroll-behavior: auto;
     margin: 0px;
     background: rgb(192,57,43);
-    background: linear-gradient(90deg, rgba(192,57,43,1) 17%, rgba(250,118,105,1) 44%, rgba(236,115,104,1) 59%, rgba(192,57,43,1) 83%);
+    background: linear-gradient(90deg, rgba(192,57,43,1) 0%, rgba(250,118,105,1) 21%, rgba(250,118,105,1) 89%, rgba(192,57,43,1) 100%);
+
 
 
 }
@@ -25,6 +26,14 @@ body {
         'ft ft ft';
 
 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
 }
 
 header {
@@ -59,8 +68,6 @@ header {
 
 #section1 {
     grid-area: st1;
-    background: rgb(245,183,177);
-    background: linear-gradient(90deg, rgba(245,183,177,1) 21%, rgba(218,115,106,1) 58%);
     border-radius: 10px;
     width: 80%;
     justify-self: center;
@@ -68,18 +75,18 @@ header {
 }
 #BildText1 {
     grid-area: st1;
-    padding-left: 220px;
+    padding-left: 160px;
     font-size: 50px;
     text-decoration: underline;
 }
 #BildText2 {
     grid-area: st1;
     font-size: 30px;
-    padding-left: 250px;
+    padding-left: 260px;
 }
 #BildText3 {
     grid-area: st1;
-    padding-left: 270px;
+    padding-left: 235px;
     font-size: 20px;
 }
 
@@ -92,7 +99,7 @@ header {
 
 }
 #Bild1:hover {
-    transform: scale(1.10);
+    transform: scale(1.05);
     transition: 500ms;
 
 
@@ -100,7 +107,7 @@ header {
 
 nav {
     grid-area: nv;
-    background-color: #F1948A;
+    background-color: #fff1dd;
  
 }
 
@@ -128,110 +135,89 @@ nav {
 
 #section2 {
     grid-area: st2;
-    padding: 30px;
-    text-align: center;
-
-
-
-
-     
-     
-}
-
-#Bild2 {
-    grid-area: st2;
-    height: 70%;
-    width: 100%;
-    margin-left: 10px;
-    padding: 10px;
-    float: right;
-
-}
-#Bild2:hover {
-    transform: scale(1.10);
-    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 
 }
 
 #section3 {
     grid-area: st3;
-    padding: 30px;
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
-
-#Bild3 {
-    grid-area: st3;
-    height: 70%;
-    width: 100%;
-    float: right;
-    padding: 10px;
-
-
-}
-#Bild3:hover {
-    
-    transform: scale(1.10);
-    transition: 500ms;
-
-}
-
-
-
-
 
 #section4 {
     grid-area: st4;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
-#Bild4 {
-    grid-area: st4;
-    height: 70%;
-    width: 100%;
+.Bild2-10 {
+    height: 60%;
+    width: 90%;
     padding: 10px;
     float: right;
 
+
+
+}
+
+.Bild2-10:hover {
+    
+    transform: scale(1.05);
+    transition: 500ms;
 
 }
 #section5 {
     grid-area: st5;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
-#Bild4:hover {
-    
-    transform: scale(1.10);
-    transition: 500ms;
-
-}
-
 
 #section6 {
     grid-area: st6;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 #section7 {
     grid-area: st7;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 
 }
 #section8 {
     grid-area: st8;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
 }
 #section9 {
     grid-area: st9;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 #section10 {
     grid-area: st10;
-    padding: 30px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 footer {
